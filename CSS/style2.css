@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+  background-image: linear-gradient(rgb(230, 212, 154),rgb(198, 138, 216), rgb(157, 221, 221));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    font-family: sans-serif;
+   
+}
+.contact p{
+    padding-top: 2px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.nav ul li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 5rem;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(9, 14, 11);
+    padding: 10px 30px;
+    transition: all .3s ease;
+    
+}
+.nav ul li a:hover{
+    background-color: rgb(19, 3, 17);
+    color: rgb(40, 226, 186);
+    box-shadow: 0 0 10px white;
+    
+}
+
+   
+.text3 h2{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 4px 4px aqua;
+    padding-top: 50px;
+    
+  }
+  .text3 p{
+    font-size: 50px;
+    text-align: center;
+    padding-top:60px;
+    text-shadow: 4px 4px aqua;
+    font-weight: bold;
+  }
+
+.main {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color:#f0fafa;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgb(150, 150, 150,.3);
+    transition: all  .3s ease-out;
+    
+}
+
+.icon:hover{
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fafafa;
+
+}
+.icon:hover i{
+    color: #fff;
+}
+.icon .fa-facebook{
+    color: #1A6ED8;
+}
+.fb:hover{
+    background: #1A6ED8;
+}
+.icon:hover i{
+    color: #fff;
+}
+.icon .fa-github   {
+    color: #071424;
+}
+.git:hover{
+    background: #721cd4;
+}
+.icon .fa-twitter{
+    color: #4b91e7;
+}
+.twt:hover{
+    background: #1A6ED8;
+}
+.icon .fa-tiktok{
+    color: #18202c;
+}
+.tik:hover{
+    background: #0b1016;
+}
+.icon .tik .fa-brands {
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+}
